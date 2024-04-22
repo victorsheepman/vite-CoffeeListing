@@ -37,4 +37,12 @@
         }
     }
 
+    @include tablet{
+        padding: 2rem 6rem;
+    }
+
+    @include large  {
+        padding: 2rem 12rem;
+    }
+
 }
