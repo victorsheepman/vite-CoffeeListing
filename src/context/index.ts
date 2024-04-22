@@ -1,2 +1,2 @@
 export * from './CoffeeContext'
-export * from './TaskContextType'
+export * from './CoffeeContextType'

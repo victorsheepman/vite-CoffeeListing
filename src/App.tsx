@@ -1,11 +1,11 @@
-import { TaskContext, useTaskContext } from "./context";
+import { CoffeeContext, useCoffeeContext } from "./context";
 
 function App() {
 
   return (
-    <TaskContext.Provider value={useTaskContext()}>
+    <CoffeeContext.Provider value={useCoffeeContext()}>
       <h1 className="fontHeading">hola</h1>
-    </TaskContext.Provider>
+    </CoffeeContext.Provider>
   )
 }
 
