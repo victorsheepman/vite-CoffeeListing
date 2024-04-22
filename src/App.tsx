@@ -1,6 +1,11 @@
+import { TaskContext, useTaskContext } from "./context";
+
 function App() {
+
   return (
-    <h1 className="fontHeading">hola</h1>
+    <TaskContext.Provider value={useTaskContext()}>
+      <h1 className="fontHeading">hola</h1>
+    </TaskContext.Provider>
   )
 }
 
