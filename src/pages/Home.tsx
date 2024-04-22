@@ -21,7 +21,6 @@ export const Home = () => {
 
   return (
     <div className="home">
-     
       <div className="home_container">
         <div className="home_container_header">
             <h1 className="fontHeading">
