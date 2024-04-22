@@ -3,7 +3,7 @@ export interface Coffee {
   name:      string;
   image:     string;
   price:     string;
-  rating:    number;
+  rating:    number | null;
   votes:     number;
   popular:   boolean;
   available: boolean;
