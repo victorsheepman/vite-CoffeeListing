@@ -1,4 +1,4 @@
-import { useContext, useEffect, useMemo, useState} from "react";
+import { useContext, useMemo, useState} from "react";
 import { CoffeeContext } from "../context";
 import { CardCoffee } from "../components";
 
@@ -14,11 +14,6 @@ export const Home = () => {
       return coffeeList
     }
   }, [isNow])
-
-  useEffect(() => {
-    console.log(list)
-  }, [isNow])
-  
 
   return (
     <div className="home">
