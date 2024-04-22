@@ -1,6 +1,6 @@
 .home{
     width: 100%;
-    height: 1000px;
+    height: auto;
     background-color: $color-gray;
     padding: 2rem;
     &_figure{
@@ -14,7 +14,7 @@
     }
     &_container{
         width:100%;
-        height:705px;
+        height:auto;
         background-color: $color-black;
         border-radius: 15px;
         &_header{
@@ -55,6 +55,13 @@
                 background-color: $color-light-gray;
                 border-radius: 12px;
             }
+        }
+        &_list{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
         }
     }
     
