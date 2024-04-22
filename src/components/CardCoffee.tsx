@@ -29,8 +29,14 @@ export const CardCoffee:React.FC<CardCoffeeProps> = () => {
             </span>
         </div>
         <div className="card_footer">
-            <div>
-                
+            <div className="card_footer_votes">
+                <img src="Star_fill.svg" alt="" />
+                <p className="fontSmallText">
+                    4.65
+                </p>
+                <p className="fontSmallText card_footer_votes-another">
+                    (122 votes)
+                </p>
             </div>
         </div>
     </div>

@@ -29,6 +29,7 @@
         height: auto;
         display: flex;
         justify-content: space-between;
+        align-items: baseline;
         margin-top: 15px;
     }
     &_price{
@@ -44,6 +45,17 @@
     &_footer{
         width: 100%;
         height: auto;
-        
+        margin-top: 10px;
+        &_votes{
+            width: auto;
+            height: auto;
+            display:flex;
+            align-items: center;
+            color: $color-white;
+            gap: 5px;
+            &-another{
+                color: $color-light-gray;
+            }
+        } 
     }
 }
