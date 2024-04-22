@@ -13,6 +13,26 @@ interface CardCoffeeProps{
 
 export const CardCoffee:React.FC<CardCoffeeProps> = () => {
   return (
-    <div>CardCoffee</div>
+    <div className="card">
+        <figure className="card_image">
+            <img src="" alt="" />
+            <span className="card_caption">
+                <p className="fontLabel">Popular</p>
+            </span>
+        </figure>
+        <div className="card_body">
+            <p className="fontLabel">House </p>
+            <span className="card_price">
+                <p className="fontPriceText">
+                    $ 3.50
+                </p>
+            </span>
+        </div>
+        <div className="card_footer">
+            <div>
+                
+            </div>
+        </div>
+    </div>
   )
 }
