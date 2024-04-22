@@ -64,7 +64,7 @@ export const CardCoffee:React.FC<CardCoffeeProps> = ({
             </div>
             {
                 !available ? 
-                <p>Sold Out</p>
+                <p className="fontLabel card_footer_sold">Sold Out</p>
                 :null
             }
         </div>

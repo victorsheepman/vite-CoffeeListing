@@ -49,6 +49,12 @@
         width: 100%;
         height: auto;
         margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        &_sold{
+            color: $color-red;
+        }
         &_votes{
             width: auto;
             height: auto;
