@@ -1,0 +1,25 @@
+$font: "DM Sans", sans-serif;
+
+.fontHeading{
+    font-family: $font;
+    font-size: 2rem;
+}
+.fontBody{
+    font-family: $font;
+    font-size: 1rem;
+}
+
+.fontLabel{
+    font-family: $font;
+    font-size: 0.875rem;
+}
+
+.fontSmallText{
+    font-family: $font;
+    font-size: 0.625rem;
+}
+
+.fontPriceText{
+    font-family: $font;
+    font-size: 0.75rem;
+}
