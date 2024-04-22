@@ -1,5 +1,8 @@
+import { useContext} from "react";
+import { CoffeeContext } from "../context";
 
 export const Home = () => {
+  const {coffeeList} = useContext(CoffeeContext);
   return (
     <div className="home">
      
