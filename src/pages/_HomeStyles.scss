@@ -1,0 +1,14 @@
+.home{
+    width: 100%;
+    height: 1000px;
+    background-color: $color-gray;
+    &_figure{
+        width: 100%;
+        height: 300px;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}

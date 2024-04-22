@@ -1,6 +1,11 @@
 
 export const Home = () => {
   return (
-    <div>Home</div>
+    <div className="home">
+      <figure className="home_figure">
+        <img src="bg-cafe.jpg" alt="" />
+      </figure>
+  
+    </div>
   )
 }
