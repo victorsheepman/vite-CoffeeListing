@@ -1,13 +1,13 @@
 import React from "react"
 
 interface CardCoffeeProps{
-    title:     String,
-    img:       String,
-    rating:    Number | null,
-    votes:     Number,
-    popular:   Boolean,
-    available: Boolean,
-    price:     String
+    title:     string,
+    img:       string,
+    rating:    number | null,
+    votes:     number,
+    popular:   boolean,
+    available: boolean,
+    price:     string
 }
 
 
@@ -54,10 +54,10 @@ export const CardCoffee:React.FC<CardCoffeeProps> = ({
                     <>
                         <img src="Star_fill.svg" alt="" />
                         <p className="fontSmallText">
-                           {`${rating}`}
+                           {rating}
                         </p>
                         <p className="fontSmallText card_footer_votes-another">
-                            {`(${votes} votes)`}
+                            ({votes} votes)
                         </p>
                     </>
                 }
