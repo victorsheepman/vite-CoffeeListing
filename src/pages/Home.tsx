@@ -1,5 +1,6 @@
 import { useContext, useEffect, useMemo, useState} from "react";
 import { CoffeeContext } from "../context";
+import { CardCoffee } from "../components";
 
 export const Home = () => {
   const {coffeeList} = useContext(CoffeeContext);
@@ -37,6 +38,22 @@ export const Home = () => {
           <button className={isNow === true ? "home_container_filter_active": "home_container_filter_desactive"} onClick={()=>setIsNow(true)}>
             Available Now
           </button>
+        </div>
+        <div className="home_container_list">
+          {
+            list.map((item, index)=>(
+              <CardCoffee 
+                key={index} 
+                img={item.image} 
+                title={item.name} 
+                rating={item.rating}
+                votes={item.votes} 
+                popular={item.popular} 
+                available={item.available} 
+                price={item.price} 
+              />
+            ))
+          }
         </div>
       </div>
     </div>

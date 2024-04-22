@@ -34,7 +34,7 @@ export const CardCoffee:React.FC<CardCoffeeProps> = ({
             
         </figure>
         <div className="card_body">
-            <p className="fontLabel">{title}</p>
+            <p className="fontLabel card_body_title">{title}</p>
             <span className="card_price">
                 <p className="fontPriceText">
                     {price}
@@ -54,7 +54,7 @@ export const CardCoffee:React.FC<CardCoffeeProps> = ({
                     <>
                         <img src="Star_fill.svg" alt="" />
                         <p className="fontSmallText">
-                            4.65
+                           {`${rating}`}
                         </p>
                         <p className="fontSmallText card_footer_votes-another">
                             {`(${votes} votes)`}

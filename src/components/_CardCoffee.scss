@@ -31,6 +31,9 @@
         justify-content: space-between;
         align-items: baseline;
         margin-top: 15px;
+        &_title{
+            color: $color-white;
+        }
     }
     &_price{
         width:60px;
